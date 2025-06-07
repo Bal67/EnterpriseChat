@@ -23,7 +23,7 @@ llm = BedrockChat(
 
 
 st.set_page_config(page_title="Enterprise Chat with Bedrock")
-st.title("🔐 Secure Enterprise Chat (No Backend)")
+st.title("Secure Enterprise Chat (No Backend)")
 
 if "history" not in st.session_state:
     st.session_state.history = []
