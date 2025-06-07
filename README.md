@@ -2,7 +2,7 @@
 
 This is a simple Streamlit-based enterprise chat application powered by **Amazon Bedrock** and **Claude 3** via the `langchain_community` integration.
 
-## ✨ Features
+## Features
 
 - Streamlit chat interface
 - Amazon Bedrock (Claude 3 Sonnet) for LLM
@@ -10,7 +10,7 @@ This is a simple Streamlit-based enterprise chat application powered by **Amazon
 - Simple local logging (`chat_audit.log`)
 - `.env` support for managing credentials securely
 
-## 🧰 Setup
+## Setup
 
 ### 1. Clone the repo and install dependencies
 
@@ -36,12 +36,12 @@ Update it with a secure token and your AWS credentials (or use IAM roles if host
 streamlit run streamlit_bedrock_chat.py
 ```
 
-## 🛡️ Security Notes
+## Security Notes
 
 - This example uses environment variables for AWS credentials. In production, prefer IAM roles and do **not** hardcode keys.
 - Token validation is simple string matching. For real systems, use Cognito or other identity providers.
 
-## 🗃️ Files
+## Files
 
 - `streamlit_bedrock_chat.py`: main application
 - `.env.example`: example environment variable setup
