@@ -2,6 +2,10 @@
 
 This is a simple Streamlit-based enterprise chat application powered by **Amazon Bedrock** and **Claude 3** via the `langchain_community` integration.
 
+## Demo
+
+https://github.com/user-attachments/assets/d27cb012-74c8-46f0-b7ac-8c5e70d6361f
+
 ## Features
 
 - Streamlit chat interface
